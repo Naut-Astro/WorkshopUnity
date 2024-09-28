@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bc0aff0ea5e00b47ab340960c6fa6b9, type: 3}
-  m_Name: Enemy2
+  m_Name: Enemy0 2
   m_EditorClassIdentifier: 
   status:
-    health: 0
-    armor: 0
-    magicResist: 0
-  GFX: {fileID: 0}
+    health: 120
+    armor: 65
+    magicResist: 65
+  atkRange: 4
+  atkSpeed: 2
+  atkDamage: 0a0000000f000000
+  GFX: {fileID: 5522463023122930858, guid: 314866256daa8c34dbb76250602ac7ed, type: 3}

@@ -1,0 +1,1 @@
+public enum AIStateType {chasing, attacking};

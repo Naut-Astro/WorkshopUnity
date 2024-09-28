@@ -9,6 +9,11 @@ public class EnemyScriptable : ScriptableObject{
     [Header("Data")]
     public Status status;
 
+    [Header("Combat")]
+    public float atkRange;
+    public float atkSpeed;
+    public int[] atkDamage;
+
     [Header("GFX")]
     public GameObject GFX;
 

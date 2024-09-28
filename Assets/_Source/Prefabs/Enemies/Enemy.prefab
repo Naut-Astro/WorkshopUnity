@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4457734927209574718}
   - component: {fileID: 6570978866886388117}
   - component: {fileID: 6207764434450421607}
+  - component: {fileID: 7693437046696703980}
   - component: {fileID: 5704099051076577303}
   - component: {fileID: 267427772108870812}
   m_Layer: 7
@@ -87,12 +88,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836acaf4a299f9e438f0983e5f6a76f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkRange: 3
-  atkSpeed: 1
-  currentAtkCooldown: 0
-  atkDamage: 0f00000019000000
-  canAttack: 0
   player: {fileID: 0}
+--- !u!114 &7693437046696703980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547162866330467051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323a7f20abaa1404f82df2708f7ca140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 11400000, guid: 02b1ae7acbab0af47aac44f254dd0eb9, type: 2}
+  GFXTransform: {fileID: 3662933857079844989}
 --- !u!114 &5704099051076577303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5595316c72fb3044ba95af01caee2c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brain: {fileID: 11400000, guid: 02b1ae7acbab0af47aac44f254dd0eb9, type: 2}
+  canAttack: 0
+  currentAtkCooldown: 0
+  player: {fileID: 0}
 --- !u!1 &3577757997265369169
 GameObject:
   m_ObjectHideFlags: 0
